@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>human</title>
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.css">
+        <link rel="stylesheet" type="text/css" href="css/general.css">
+    </head>
+    <body>
+
+    	<div data-role="page" id="foo">
+
+        <div role="main" class="ui-content">
+
+            <img src="img/logo.png" class="logo">
+
+          
+                <div class="tituloCenter">
+                    <h1>Iniciar Sesión</h1>
+                </div>
+
+                <label for="name">
+                    <h3>Usuario:</h3></label>
+                <input type="email" data-clear-btn="true" name="usuario-2" id="usuario" value="" placeholder="micorreo@correo.com">
+                
+                <br>
+                <button class="ui-btn iniciaSesion" id="recuperarPass" data-position-to="window">Restablecer Contraseña</button>
+    <p id="resultBlock"></p>
+        </div>
+        <!-- /content -->
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
+        <script type="text/javascript" src="js/hideShowPassword.js"></script>
+        <script type="text/javascript" src="js/general.js"></script>
+        <script type="text/javascript" src="js/login/cambiarPas.js"></script>
+    </body>
+</html>
